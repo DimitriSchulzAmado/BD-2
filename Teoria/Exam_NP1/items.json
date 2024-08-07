@@ -1,0 +1,142 @@
+{
+    "itens": [
+        {
+            "id": 1,
+            "nome": "Espada de Fogo",
+            "preco": 100,
+            "peso": 5,
+            "volume": 10,
+            "tipo": "arma",
+            "classe": "Guerreiro",
+            "dano": 10
+        },
+        {
+            "id": 2,
+            "nome": "Espada de Gelo",
+            "preco": 100,
+            "peso": 5,
+            "volume": 10,
+            "tipo": "arma",
+            "classe": "Guerreiro",
+            "dano": 10
+        },
+        {
+            "id": 3,
+            "nome": "Cajado de Fogo",
+            "preco": 100,
+            "peso": 5,
+            "volume": 10,
+            "tipo": "arma",
+            "classe": "Mago",
+            "dano": 10
+        },
+        {
+            "id": 4,
+            "nome": "Cajado de Gelo",
+            "preco": 100,
+            "peso": 5,
+            "volume": 10,
+            "tipo": "arma",
+            "classe": "Mago",
+            "dano": 10
+        },
+        {
+            "id": 5,
+            "nome": "Poção de Veneno",
+            "preco": 50,
+            "peso": 1,
+            "volume": 2,
+            "tipo": "mágico",
+            "efeito": "veneno"
+        },
+        {
+            "id": 6,
+            "nome": "Poção de Cura",
+            "preco": 50,
+            "peso": 1,
+            "volume": 2,
+            "tipo": "mágico",
+            "efeito": "cura"
+        },
+        {
+            "id": 7,
+            "nome": "Poção de Força",
+            "preco": 50,
+            "peso": 1,
+            "volume": 2,
+            "tipo": "mágico",
+            "efeito": "força",
+            "classe": "Mago",
+            "dano": 5
+        },
+        {
+            "id": 8,
+            "nome": "Armadura de Ferro",
+            "preco": 200,
+            "peso": 10,
+            "volume": 20,
+            "tipo": "armadura",
+            "classe": "Guerreiro",
+            "defesa": 10
+        }
+    ],
+    "mundos": [
+        {
+            "id": 11,
+            "nome": "Terra dos Dragões",
+            "descricao": "Um mundo cheio de dragões."
+        },
+        {
+            "id": 12,
+            "nome": "Terra dos Elfos",
+            "descricao": "Um mundo cheio de elfos."
+        }
+    ],
+    "paginas": [
+        {
+            "id": 21,
+            "titulo": "História da Terra dos Dragões",
+            "descricao": "Esta página descreve a história da Terra dos Dragões.",
+            "mundo": "Terra dos Dragões"
+        },
+        {
+            "id": 22,
+            "titulo": "História da Terra dos Elfos",
+            "descricao": "Esta página descreve a história da Terra dos Elfos.",
+            "mundo": "Terra dos Elfos"
+        }
+    ],
+    "personagens": [
+        {
+            "id": 31,
+            "nome": "John Doe",
+            "idade": 30,
+            "habilidades": [
+                "Luta com espada",
+                "Magia"
+            ],
+            "profissao": "Guerreiro",
+            "cultura": "Eban",
+            "dataCriacao": "2024-04-15",
+            "mundo": "Terra dos Dragões",
+            "conhecimentos": [
+                "História da Terra dos Dragões"
+            ]
+        },
+        {
+            "id": 32,
+            "nome": "Jane Doe",
+            "idade": 25,
+            "habilidades": [
+                "Magia"
+            ],
+            "profissao": "Maga",
+            "cultura": "Eban",
+            "dataCriacao": "2024-04-15",
+            "mundo": "Terra dos Elfos",
+            "conhecimentos": [
+                "História da Terra dos Elfos"
+            ]
+        }
+    ]
+}
